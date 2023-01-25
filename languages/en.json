@@ -1,0 +1,19 @@
+{
+    "perfil":{
+        "tituloApti":"Aptitudes",
+        "descripcion":"I am an active, restless and ingenious person. I like challenges, I have leadership and communication skills. I am skilled in computer science and oral and written communication, and of course, always willing to learn new skills."
+    },
+    "ExpEdu":{
+        "tituloExp":"Experience",
+        "tituloCola":"Collaboration | FM Stereorey | October 2019 to date",
+        "descripcionCola":"I did learning tasks and began to develop individually as a music producer in my family's FM station.",
+        "tituloFree":"Free lance | Development of levels for video games | September 2015 to date",
+        "descripcionFree":"I have done various projects individually for different video games. They are usually levels completely made by me. I have great experience in the design and creation of levels with different graphic engines. You can access my work by clicking here.",
+        "tituloEdu":"Education",
+        "tituloBachi":"Bachelor of Natural Sciences | 11/11/2020 | Madre Teresa Michel Institute",
+        "descripcionBachi":"Average classification of 8.60. I have never taken anything to render. I have a recognition of outstanding student from Montecarlo. It has been delivered to me on 21/09/2020.",
+        "tituloASC":"System Analyst and Information Systems Degree | 19/04/2021 to date | Facultad de Ciencias Exactas, Químicas y Naturales, Universidad Nacional De Misiones",
+        "descripcionASC1":"Currently in the third year of the career with an average grade of 8.00.",
+        "descripcionASC2":"I have knowledge of programming languages such as C# and C, as well as how to make a correct documentation for a project, either small, medium or large scale."
+    }
+}

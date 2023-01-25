@@ -1,0 +1,35 @@
+.flags{
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flags-item{
+  width: 30px;
+}
+.flags-img{
+  display: block;
+  cursor: pointer;
+}
+#columna{
+  border-right: 4px solid #FFD556;
+  border-bottom: 4px solid #FFD556;
+  padding: 15px;
+}
+#Objetivo{
+  border-bottom: 4px solid #FFD556;
+  background-color: #FFD556;
+  padding: 15px;
+}
+#Contacto{
+  border-top: 4px solid #FFD556;
+  border-bottom: 4px solid #FFD556;
+  background-color: #FFD556;
+  padding: 15px;
+}
+#Datos{
+  padding: 15px;
+}
+#EduExp{
+  border-top: 4px solid #FFD556;
+}

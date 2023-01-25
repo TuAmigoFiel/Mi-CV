@@ -1,0 +1,19 @@
+{
+    "perfil":{
+        "tituloApti":"Aptitudes",
+        "descripcion":"Soy una persona activa, inquieta e ingeniosa. Me gustan los desafíos, cuento con aptitudes de liderazgo y comunicación. Soy hábil en informática y en la comunicación oral y escrita, y por supuesto, siempre dispuesto a aprender habilidades nuevas."
+    },
+    "ExpEdu":{
+        "tituloExp":"Experiencia",
+        "tituloCola":"Colaboración | FM Stereorey | Octubre 2019 a la fecha",
+        "descripcionCola":"Realicé tareas de aprendizaje y comencé a desenvolverme de forma individual como productor musical en la estación FM de mi familia.",
+        "tituloFree":"Free lance | Desarrollo de niveles para videojuegos | Septiembre 2015 a la fecha",
+        "descripcionFree":"He realizado diversos proyectos de forma individual para distintos videojuegos. Suelen ser niveles completamente hechos por mí. Cuento con gran experiencia en el apartado de diseño y realización de niveles con diversos motores gráficos. Puede acceder a mis trabajos pulsando aquí.",
+        "tituloEdu":"Educación",
+        "tituloBachi":"Bachiller en ciencias naturales | 11/11/2020 | Instituto Madre Teresa Michel",
+        "descripcionBachi":"Clasificación promedio de 8,60. Nunca me he llevado nada a rendir. Cuento con un reconocimiento de estudiante destacado de Montecarlo. El mismo se me ha sido entregado el 21/09/2020.",
+        "tituloASC":"Analista de sistemas y Licenciatura en sistemas de información | 19/04/2021 a la fecha | Facultad de Ciencias Exactas, Químicas y Naturales, Universidad Nacional De Misiones",
+        "descripcionASC1":"Actualmente cursando el tercer año de la carrera. Con una calificación promedio de 8,00.",
+        "descripcionASC2":"Tengo conocimientos de lenguajes de programacion tales como C# y C. Ademas de como realizar una correcta documentacion para un proyecto, ya sea a pequeña, mediana o gran escala."
+    }
+}
