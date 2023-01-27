@@ -33,3 +33,37 @@
 #EduExp{
   border-top: 4px solid #FFD556;
 }
+#instagram{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#github{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#correo{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#telefono{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+h2{
+  font-size: x-large;
+}
+h3{
+  font-size: large;
+}
+h4{
+  font-size: medium;
+}
+#img{
+  position: relative;
+  display: block;
+  padding: 5px;
+}
