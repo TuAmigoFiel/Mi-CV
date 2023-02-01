@@ -8,6 +8,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
   <script src="https://kit.fontawesome.com/b2cb495b53.js" crossorigin="anonymous"></script>
@@ -18,16 +21,12 @@
     <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <h1>André Gelabert</h1>
+          <h1>Lionel Andrés Messi</h1>
         </a>
-        <div id="flags" class="flags">
-          <div class="flags-item" data-language="es">
-            <img src="/assets/icons/ar.svg" alt="Bandera Argentina">
-          </div>
-          <div class="flags-item" data-language="en">
-            <img src="/assets/icons/us.svg" alt="Bandera EE.UU">
-          </div>
-        </div>
+        <button class="switch" id="switch">
+          <span><i class="fas fa-sun"></i></span>
+          <span><i class="fas fa-moon"></i></span>
+        </button>
         <script src="/script.js"></script>
       </div>
     </nav>
@@ -36,60 +35,56 @@
     <div class="row mb-3 text-center">
       <div id="columna" class="col-md-8 themed-grid-col">
         <div class="pb-3">
-          <h2>Aptitudes</h2>
-          <p data-section="perfil" data-value="descripcion">Soy una persona activa, inquieta e ingeniosa. Me gustan los
-            desafíos, cuento con aptitudes de liderazgo y comunicación. Soy hábil en informática y en la comunicación
-            oral y escrita, y por supuesto, siempre dispuesto a aprender habilidades nuevas.</p>
+          <div id="Aptitudes">
+            <h2>Aptitudes</h2>
+            <p>Cuento con habilidades de liderazgo en el campo de juego, excelente visión del campo y habilidad para dar pases precisos.
+              Una Gran resistencia física y habilidad para correr con el balón destacandome en el regate y precisión en el tiro, 
+              ademas de una capacidad para adaptarme y jugar en diferentes posiciones en el campo.</p>
+          </div>
         </div>
-          <div id="EduExp" class="row">
+          <div class="row">
             <div class="col-md-6 themed-grid-col">
-              <h2 data-section="ExpEdu" data-value="tituloExp">Experiencia</h2>
-              <h3 data-section="ExpEdu" data-value="tituloCola">Colaboración | FM Stereorey | Octubre 2019 a la fecha
-              </h3>
-              <p data-section="ExpEdu" data-value="descripcionCola">Realicé tareas de aprendizaje y comencé a
-                desenvolverme de forma individual como productor musical en la estación FM de mi familia.</p>
-              <h3 data-section="ExpEdu" data-value="tituloFree">Free lance | Desarrollo de niveles para videojuegos |
-                Septiembre 2015 a la fecha</h3>
-              <p data-section="ExpEdu" data-value="descripcionFree">He realizado diversos proyectos de forma individual
-                para distintos videojuegos. Suelen ser niveles completamente hechos por mí. Cuento con gran experiencia
-                en el apartado de diseño y realización de niveles con diversos motores gráficos. Puede acceder a mis
-                trabajos pulsando <a
-                  href="https://steamcommunity.com/profiles/76561198088374061/myworkshopfiles/?p=1">aquí</a>.</p>
+              <h2>Experiencia</h2>
+              <h3>Jugador profesional de Fútbol | Barcelona | Octubre 2004 a Junio 2021</h3>
+              <p>Desde mi llegada al club en 2004, logré en convertirme en el mejor jugador de la historia del equipo y uno de los mejores jugadores de todos los tiempos. 
+                He ganado 34 títulos con el club, incluyendo 10 Ligas de Campeones, cuatro Copas del Rey y seis Ligas españolas. Además, he marcado 634 goles para el Barcelona, convirtiéndome en el máximo goleador histórico del equipo. 
+                También me convertí en el único jugador que ha ganado siete Balones de Oro y seis Botas de Oro.</p>
+              <h3>Jugador profesional de Fútbol | Paris Saint-Germain Football Club |
+                Agosto 2021 a la fecha</h3>
+              <p>Llegue al club en busca de nuevos retos y conseguir la tan ansiada Champions League para el conjunto Parisino, mi nuevo club. Mi primer gol con el PSG lo hice ante el Manchester City de Guardiola, en la segunda jornada de la fase de grupos de la Champions League 2021-22. En Ligue 1, mi estreno goleador fue ante el Nantes, el 20 de noviembre de 2021.
+                El 23 de abril de 2021, logré ganar mi primer título con el PSG, la Ligue 1 con once goles y catorce asistencias en 33 partidos, aunque fue la temporada en que menos jugué y anoté, si se exceptúan las dos primeras con el Barcelona.</p>
+              <h3>Jugador profesional de Fútbol | Seleccion nacional de fútbol de Argentina | Agosto 2005 a la fecha</h3>
+              <p>Me he covertido en uno de los jugadores más importantes en la historia del equipo. 
+                Durante mi carrera, ha ganado varios títulos con la selección, incluyendo la medalla de oro en los Juegos Olímpicos de Beijing en 2008, la Copa América en 2021, la Finalissima el 1ro de junio 2022 y la tan ansiada Copa del Mundo el 18 de diciembre en 2022. 
+                Durante el transcurso del mundial logré 5 premios MVP y un premio a mejor jugador del toreo, convirtiendome así en ser el primer jugador reconocido como MVP en once oportunidades y en dos como el mejor del torneo. 
+                Además de quedar cuarto en la la lista de máximos goleadores en mundiales, ganar la Bota de Plata y romper records como el de más partidos jugados para una selección (26) y el de más minutos jugados (2314). 
+                Pero para poder llegar a este momento de mi carrera, he tenido que superar en el pasado una relación tensa con la selección por momentos, y he llegado a retirarme temporalmente de la selección en diversas ocasiones debido a diferencias con la administración y la Federación Argentina de Fútbol. 
+                A pesar de esto, me volví y sigo siendo una figura importante en la selección y me siento apoyado por muchos fanáticos y jugadores.</p>
             </div>
             <div class="col-md-6 themed-grid-col">
-              <h2 data-section="ExpEdu" data-value="tituloEdu">Educación</h2>
-              <h3 data-section="ExpEdu" data-value="tituloBachi">Bachiller en ciencias naturales | 11/11/2020 |
-                Instituto Madre Teresa Michel</h3>
-              <p data-section="ExpEdu" data-value="descripcionBachi">Clasificación promedio de 8,60. Nunca me he llevado
-                nada a rendir. Cuento con un reconocimiento de estudiante destacado de Montecarlo. El mismo se me ha
-                sido entregado el 21/09/2020.</p>
-              <h3 data-section="ExpEdu" data-value="tituloASC">Analista de sistemas y Licenciatura en sistemas de
-                información | 19/04/2021 a la fecha | Facultad de Ciencias Exactas, Químicas y Naturales, Universidad
-                Nacional De Misiones</h3>
-              <p data-section="ExpEdu" data-value="descripcionASC1">Actualmente cursando el tercer año de la carrera.
-                Con una calificación promedio de 8,00.
-              <p data-section="ExpEdu" data-value="descripcionASC2">Tengo conocimientos de lenguajes de programacion
-                tales como C# y C. Ademas de como realizar una correcta documentacion para un proyecto, ya sea a
-                pequeña, mediana o gran escala.</p>
-              </p>
+              <h2>Educación</h2>
+              <h3>Educación primaria | 2000 |
+                Escuela Nº 66 General Las Heras y Colegio León XVIII</h3>
+              <p>Era un niño tranquilo, pero siempre iba a la escuela con un pelota. Me sentia algo diferente cuando iba al recreo y jugaba al futbol.</p>
             </div>
           </div>
       </div>
       <div class="col-md-4 themed-grid-col">
         <div id="Objetivo">
           <div id="img">
-            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" height="200px" width="200px" src="assets/images/profile.jpg" alt="Foto de perfil">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" height="250px" width="250px" src="https://statics.forbesargentina.com/2022/12/crop/63a1aa07f3f5c__822x822.webp" alt="Foto de perfil">
           </div>
           <h2>Objetivo</h2>
-          <p>Ganar experiencia y formar parte de un equipo de trabajo.</p>
+          <p>Seguir jugando al fútbol a un alto nivel y ganando títulos con el PSG y la selección argentina. 
+            Ademas de continuar siendo un líder en el campo de juego, un ejemplo para jóvenes jugadores y expandir mi carrera como embajador de marcas y empresas, continuando asi el trabajo en mi fundación Leo Messi para ayudar a los niños en necesidad.</p>
         </div>
         <div id="Datos">
           <h2>Datos personales</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Argentina</li>
-            <li class="list-group-item">Soltero</li>
-            <li class="list-group-item">44.950.175</li>
-            <li class="list-group-item">21/04/2003</li>
+            <li class="list-group-item">Casado</li>
+            <li class="list-group-item">33.016.244</li>
+            <li class="list-group-item">24/06/1987</li>
             <li class="list-group-item">Nivel de inglés medio</li>
           </ul>
         </div>
@@ -101,22 +96,22 @@
                 <a name="correo" id="correo" class="fa-solid fa-envelope" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZdBRzftgSlWpNsGBXJxLFNDKPHTGlwpfXVFnTGXtcTFQVKFgFnmTzXVDTFHFMqbGXNbVB" target="_blank" role="button"></a>
               </div>
               <h4 class="fw-semibold mb-0">E-Mail</h4>
-              <p class="text-muted">andregelabert21@gmail.com</p>
+              <p class="text-muted">info@messi.com</p>  
             </div>
   
             <div class="col d-flex flex-column gap-2">
               <div>
-                <a name="telefono" id="telefono" class="fa-brands fa-whatsapp" href="https://wa.me/5493751590586" target="_blank" role="button"></a>
+                <a name="telefono" id="telefono" class="fa-brands fa-youtube" href="https://www.youtube.com/user/LeoMessi" target="_blank" role="button"></a>
               </div>
-              <h4 class="fw-semibold mb-0">Teléfono</h4>
-              <p class="text-muted">3751590586</p>
+              <h4 class="fw-semibold mb-0">Youtube</h4>
+              <p class="text-muted">Leo Messi</p>
             </div>
             <div class="col d-flex flex-column gap-2">
               <div>
-                <a name="instagram" id="instagram" class="fa-brands fa-instagram" href="https://www.instagram.com/andre.gelabert21/" target="_blank" role="button"></a>
+                <a name="instagram" id="instagram" class="fa-brands fa-instagram" href="https://www.instagram.com/leomessi/" target="_blank" role="button"></a>
               </div>
               <h4 class="fw-semibold mb-0">Instagram</h4>
-              <p class="text-muted">andre.gelabert21</p>
+              <p class="text-muted">leomessi</p>
             </div>
   
             <div class="col d-flex flex-column gap-2">
