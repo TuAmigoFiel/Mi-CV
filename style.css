@@ -1,0 +1,122 @@
+#columna{
+  border-right: 4px solid #FFD556;
+  border-bottom: 4px solid #FFD556;
+  padding: 15px;
+  text-align: justify;
+}
+#Aptitudes{
+  border-bottom: 4px solid #FFD556;
+  text-align: justify;
+}
+#Objetivo{
+  border-bottom: 4px solid #FFD556;
+  background-color: #FFD556;
+  padding: 15px;
+}
+#Contacto{
+  border-top: 4px solid #FFD556;
+  border-bottom: 4px solid #FFD556;
+  background-color: #FFD556;
+  padding: 15px;
+}
+#instagram{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#github{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#correo{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+#telefono{
+  color: rgb(40, 40, 40);
+  font-size: 28px;
+  text-decoration: none;
+}
+h2{
+  font-size: x-large;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-size: large;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+}
+h4{
+  font-size: medium;
+}
+#img{
+  position: relative;
+  display: block;
+  padding: 5px;
+}
+body.dark {
+  transition: .3s ease all;
+  background: #2e2e2e;
+  color: white;
+}
+body.dark #Objetivo{
+  color: #212529;
+}
+body.dark #Contacto{
+  color: #212529;
+}
+body.dark li{
+  transition: .3s ease all;
+  background: #2e2e2e;
+  color: white;
+}
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+  background: orange;
+  color: #000;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
